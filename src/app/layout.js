@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
+        <Header title="🛒 Loja de Eletrônicos" subtitle="Os melhores produtos com os melhores preços!" totalProducts= "10"/>
         {children}
       </body>
     </html>
